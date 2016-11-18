@@ -1,0 +1,28 @@
+{
+  "name": "fauxql",
+  "version": "0.0.0",
+  "description": "A SQL-based parser",
+  "main": "index.js",
+  "devDependencies": {
+    "pegjs": "0.10.0"
+  },
+  "scripts": {
+	 "build": "pegjs -o index.js grammar.pegjs",
+	 "install": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CExBBartolome/fauxql.git"
+  },
+  "keywords": [
+    "sql",
+    "parser",
+    "ast"
+  ],
+  "author": "CExBBartolome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CExBBartolome/fauxql/issues"
+  },
+  "homepage": "https://github.com/CExBBartolome/fauxql#readme"
+}
